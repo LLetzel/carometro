@@ -6,6 +6,7 @@
 body{
   /* background-color: #3DB4DB; */
   background-color: red;
+  color: #fff;
 }
 /*
 
@@ -54,7 +55,7 @@ body{
 }
 
 .form-container {
-  /* margin-top: 2%; */
+  margin-top: 2%;
   margin-left: 8%;
   background: beige;
   backdrop-filter: blur(500px);
