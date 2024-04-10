@@ -1,18 +1,25 @@
+import { useState } from 'react';
+import 'C:/Temp/react/carometro/carometro/src/App.css';
+import CustomNavbar from './navbar.jsx';
+import CarouselCar from './carousel.jsx';
 import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// Componente CarouselCar para renderizar um carrossel simples na Tela Home
-function CarouselCar() {
+
+
+function Teste() {
   return (
+    <>
     <Carousel data-bs-theme="dark"> {/* Define o tema do carrossel como "dark" */}
       <Carousel.Item> {/* Define um item do carrossel */}
         <img
           className="d-block w-100"  
-          src="holder.js/800x400?text=First slide&bg=f5f5f5"
-          alt="First slide" 
+          src='./idev2.jpeg'
+          alt="IDEV2" 
         />
         <Carousel.Caption> {/* Legenda do item do carrossel */}
-          <h5>First slide label</h5>  {/* Título da legenda */}
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> {/* Descrição da legenda */}
+          <h5>IDEV2</h5>  {/* Título da legenda */}
+          <p>Segundo ano - Desenvolvimento de Sistemas</p> {/* Descrição da legenda */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item> {/* Define outro item do carrossel (repetir estrutura para itens adicionais) */}
@@ -38,7 +45,8 @@ function CarouselCar() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+  </>
   );
 }
 
-export default CarouselCar; // Exporta o componente CarouselCar para uso em outros lugares
+export default Teste;
