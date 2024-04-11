@@ -32,7 +32,7 @@ function Login() {
         onChange={(event) => setPassword(event.target.value)}
       />
       <br />
-      <button type="submit">Entrar</button>
+      <button href="" type="submit">Entrar</button>
     </form>
   );
 }

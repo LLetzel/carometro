@@ -1,20 +1,20 @@
 import { useState } from 'react';
 import 'C:/Temp/react/carometro/carometro/src/App.css';
-import CustomNavbar from './navbar.jsx';
 import CarouselCar from './carousel.jsx';
-import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
+// import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-
-function Teste() {
+function Teste() { 
   return (
     <>
+    
+    <div id='carrossel'>
     <Carousel data-bs-theme="dark"> {/* Define o tema do carrossel como "dark" */}
       <Carousel.Item> {/* Define um item do carrossel */}
         <img
-          className="d-block w-100"  
-          src='./idev2.jpeg'
+          className="d-block"  
+          src='https://profissionalizar.com/wp-content/uploads/2021/03/posts-carrossel-do-Instagram.jpg'
           alt="IDEV2" 
         />
         <Carousel.Caption> {/* Legenda do item do carrossel */}
@@ -24,8 +24,8 @@ function Teste() {
       </Carousel.Item>
       <Carousel.Item> {/* Define outro item do carrossel (repetir estrutura para itens adicionais) */}
         <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=eee"
+          className="d-block "
+          src="https://img.freepik.com/vetores-gratis/modelos-de-carrossel-do-instagram_52683-51656.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -33,18 +33,9 @@ function Teste() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item> {/* ... (repetir estrutura para itens adicionais) */}
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=e5e5e5"
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
     </Carousel>
+
+    </div>
   </>
   );
 }

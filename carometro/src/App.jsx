@@ -1,11 +1,9 @@
 import { useState } from 'react'; // Importa o hook useState do React para gerenciar estados
-
 import './App.css'; // Importa a folha de estilo CSS da aplicação
-
-import Login from './pages/login'; // Importa o componente Login (provavelmente renomeado para Entrar na renderização)
 import Entrar from './pages/entrar.jsx'; // Importa o componente Entrar
 import Home from './pages/home.jsx'; // Importa o componente Home
 import Teste from './pages/teste.jsx';
+import CarouselCar from './pages/carousel.jsx';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Importa componentes de roteamento do React Router DOM
 
@@ -21,6 +19,7 @@ function App() {
             <Route path="/home" element={<Home />} />  {/* Rota para /home, renderiza o componente Home */}
             <Route path="/entrar" element={<Entrar />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
             <Route path="/teste" element={<Teste />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
+            <Route path="/carousel" element={<CarouselCar />} />
           </Routes>
         </BrowserRouter>
       </div>
