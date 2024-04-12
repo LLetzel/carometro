@@ -5,8 +5,13 @@ import CarouselCar from './carousel.jsx';
 
 function Home() {
   return (
+    
     <>
+    
+    <div className="containerhome">
     <CarouselCar></CarouselCar>
+    <button id='visualizarturma' >Visualizar turma</button>
+    </div>
   </>
   );
 }
