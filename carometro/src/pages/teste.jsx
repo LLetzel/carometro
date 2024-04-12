@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import 'C:/Temp/react/carometro/carometro/src/App.css';
+import '../App.css';
 import CarouselCar from './carousel.jsx';
 // import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';

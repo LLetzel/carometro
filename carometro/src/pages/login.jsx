@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import 'C:/Temp/react/carometro/carometro/src/App.css';
+import '../App.css';
 import Form from './form';
 
 function Login() {

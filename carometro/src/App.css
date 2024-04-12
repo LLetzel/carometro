@@ -136,7 +136,7 @@ label {
   flex-direction: column;
   padding: 10px;
   background-color: aliceblue;
-  height: 100vh !important; 
+  height: 89vh !important; 
   width: 100vw !important;
 }
 
@@ -145,6 +145,17 @@ label {
   width: 14%;
 }
 
-header{
-  background-color: #fff;
+#header{
+  background-color: red;
+  padding: 0.3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+/* #home-entrar{
+  margin-right: 2vw;
+} */
+
+
+
