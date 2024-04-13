@@ -19,8 +19,8 @@ function App() {
             <Route path="/" element={<Login />} /> {/* Rota raiz (/), renderiza o componente Entrar */}
             <Route path="/home" element={<Home />} />  {/* Rota para /home, renderiza o componente Home */}
             <Route path="/login" element={<Login />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
-            <Route path="/teste" element={<Teste />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
-            <Route path="/carousel" element={<CarouselCar />} />
+            
+            
           </Routes>
         </BrowserRouter>
       </div>

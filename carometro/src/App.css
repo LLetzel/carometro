@@ -74,6 +74,8 @@ body{
 }
 
 .form-container h1 {
+  font-family: 'Roboto Condensed, sans-serif';
+  font-weight:'bold';
   display: flex;
   color: black;
   font-size: 4rem;
@@ -81,6 +83,8 @@ body{
 }
 
 .form-container p {
+  font-family: 'Roboto Condensed, sans-serif';
+  font-weight:'bold';
   display: flex;
   color: black;
   font-size: 1rem;
@@ -111,8 +115,24 @@ body{
   transition: background-color 0.8s ease;
 }
 
+.form-container button[type="reset"] {
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+  margin-right: 40px;
+}
+
 .form-container button[type="submit"]:hover {
-  background-color: red;
+  background-color: green;
+}
+
+.form-container button[type='reset']:hover {
+  background-color: red; 
 }
 
 label {
