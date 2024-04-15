@@ -6,17 +6,14 @@ import Cabecalho from './Header.jsx';
 
 
 function Home() { //npm install @fortawesome/fontawesome-free para instalar a biblioteca Fortawesome(para icon)
-  function Linkclassroom(){
-    const classroomUrl = 'https://classroom.google.com/'
-    history.push(classroomUrl); // Redirecionando para o URL
-  };
 
   return (
 
     
     
     <>
-    <Cabecalho></Cabecalho>
+    
+    {/* <Cabecalho></Cabecalho> */}
     <div className="containerhomefull">
         <button onClick={() => window.open(
               'https://classroom.google.com/u/1/c/NTQyMDY3MzYxOTUx',
@@ -29,7 +26,11 @@ function Home() { //npm install @fortawesome/fontawesome-free para instalar a bi
         </button>
     <div className="containerhome">
     <CarouselCar></CarouselCar>
-    <button id='visualizarturma'>Visualizar turma</button>
+    <button id='visualizarturma' onClick={window.open(
+        './alunosIdev2',
+        '_blank'
+      )}
+     >Visualizar turma</button>
     </div>
     </div>
   </>

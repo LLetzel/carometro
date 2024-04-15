@@ -7,23 +7,33 @@ import CarouselCar from './pages/carousel.jsx';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Importa componentes de roteamento do React Router DOM
 import Login from './pages/login.jsx';
-
+import MenuIdev2 from './pages/menuidev2.jsx';
+import Cabecalho from './pages/Header.jsx';
+import Footer from './pages/footer.jsx';
 function App() {
   const [count, setCount] = useState(0); // Define um estado inicial "count" com valor 0, provavelmente não utilizado neste exemplo
 
   return (
-    <>  {/* Fragmento para encapsular elementos */}
-      <div>
+    <>
+      {localStorage.getItem('token') ? <>
+        <div>
+          <BrowserRouter>  {/* Cria um contexto de roteamento */}
+            <Cabecalho></Cabecalho>
+            <Routes>  {/* Define as rotas da aplicação */}
+              <Route path="/" element={<Login />} /> {/* Rota raiz (/), renderiza o componente Entrar */}
+              <Route path="/home" element={<Home />} />  {/* Rota para /home, renderiza o componente Home */}
+              <Route path="/alunosIdev2" element={<MenuIdev2 />} />
+            </Routes>
+            <Footer></Footer>
+          </BrowserRouter>
+        </div>
+      </> : <>
         <BrowserRouter>  {/* Cria um contexto de roteamento */}
           <Routes>  {/* Define as rotas da aplicação */}
-            <Route path="/" element={<Login />} /> {/* Rota raiz (/), renderiza o componente Entrar */}
-            <Route path="/home" element={<Home />} />  {/* Rota para /home, renderiza o componente Home */}
             <Route path="/login" element={<Login />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
-            
-            
           </Routes>
         </BrowserRouter>
-      </div>
+      </>}
     </>
   );
 }

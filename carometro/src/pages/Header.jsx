@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import LogoSenai from '../senai-logo.png';
 
+const email = localStorage.getItem('token');
 function Cabecalho() {
   return (
     <header id='header'>
@@ -23,7 +24,7 @@ function Cabecalho() {
   backgroundColor: 'red',
   padding: '4px 15px',
 }}>
-  Entrar
+  {email}
 </a>
     </header>
   );
