@@ -33,7 +33,10 @@ function Form() {
       />
       <br />
       <button href="" type='reset'>Voltar</button>
-      <button href="" type='submit'>Cadastrar</button>
+      <button onClick={() => window.open(
+              './home',
+              '_blank'
+            )} type='submit'>Cadastrar</button>
     </form>
     
 
