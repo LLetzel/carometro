@@ -156,13 +156,31 @@ label {
   flex-direction: column;
   padding: 10px;
   background-color: aliceblue;
-  height: 89vh !important; 
+  height: 80vh !important; 
   width: 100vw !important;
 }
 
+.containerhomefull {
+  background-color: aliceblue;
+}
+
+#classroom {
+  margin-top: 0.8%;
+  margin-left: 1.5%;
+  border-radius: 0.5;
+}
+
+#iconclassroom { 
+  border-radius: 8% !important ;
+  margin-right: 12px !important; 
+  height: 28px !important ;
+  width: 35px !important;
+  
+}
+
 #visualizarturma {
-  margin-top: 5vh;
-  width: 14%;
+  margin-top: 3vh;
+  width: 12%;
 }
 
 #header{
