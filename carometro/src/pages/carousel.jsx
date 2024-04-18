@@ -13,7 +13,7 @@ function CarouselCar() {
     },
     {
       src: 'https://img.freepik.com/vetores-gratis/modelos-de-carrossel-do-instagram_52683-51656.jpg',
-      alt: 'Imagem 2',
+      alt: 'IDEV1',
     },
   ]);
   return (
@@ -31,6 +31,13 @@ function CarouselCar() {
           </Carousel.Item>
         ))}
       </Carousel> 
+      <button id='visualizarturma' onClick={() => {
+        window.open(
+          '/Idev2',
+          '_self'
+        )}
+      }
+     >Visualizar turma</button>
     </div>
     </>
   );

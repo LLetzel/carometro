@@ -38,8 +38,8 @@ function Form() {
       <button href="" type='reset'>Voltar</button>
       <button onClick={() => {
         window.open(
-          './home',
-          '_blank'
+          '/home',
+          '_self'
         )
         localStorage.setItem('token', email)
       }} type='submit'>Cadastrar</button>

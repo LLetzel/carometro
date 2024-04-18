@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import LogoSenai from '../senai-logo.png';
+import IconPerfil from './imagens/iconePessoa.png';
 
 const email = localStorage.getItem('token');
 function Cabecalho() {
@@ -12,15 +13,14 @@ function Cabecalho() {
           SENAI
         </a>
 
-        <a href="./login" id="home-entrar" class="animated-button" style={{
+        <a href="/" id="home-entrar" style={{
   fontFamily: 'Roboto Condensed, sans-serif',
   fontWeight: 'bold',
   letterSpacing: '0.1em',
   color: 'white',
   fontSize: '20px',
-  padding: '4px 15px',
 }}>
-  {email}
+  <img src={IconPerfil} id='iconperfil' alt="icon perfil" />
 </a>
     </header>
   );

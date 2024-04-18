@@ -19,7 +19,7 @@ function Footer() {
             <img id='iconrodape' 
                 src="https://img.freepik.com/vetores-premium/logo-de-midia-social-do-circulo-preto_197792-2899.jpg" 
                 alt="Icon Instagram" />
-                tcholalucasletzel_</a>
+                lucasletzel_</a>
                 <a id='letrasrodape' href="https://www.instagram.com/_pedrolima7_/" >
 <img id='iconrodape' 
                 src="https://img.freepik.com/vetores-premium/logo-de-midia-social-do-circulo-preto_197792-2899.jpg" 
@@ -31,4 +31,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer;

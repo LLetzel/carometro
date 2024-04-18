@@ -26,11 +26,14 @@ function Home() { //npm install @fortawesome/fontawesome-free para instalar a bi
         </button>
     <div className="containerhome">
     <CarouselCar></CarouselCar>
-    <button id='visualizarturma' onClick={window.open(
-        './alunosIdev2',
-        '_blank'
-      )}
-     >Visualizar turma</button>
+    {/* <button id='visualizarturma' onClick={() => {
+        window.open(
+          '/Idev2',
+          '_self'
+        )}
+      }
+ 
+     >Visualizar turma</button> */}
     </div>
     </div>
   </>

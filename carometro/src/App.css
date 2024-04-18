@@ -11,33 +11,19 @@ body{
   display: flex;
   justify-content: center;
 }
-/*
 
-.container {
-  display: flex;
-  height: 100vh;
-  flex-direction: row;
+body::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
 }
 
-.image-container {
-  background-color: #3DB4DB;
-  flex: 1;
-  display: flex;
-  width: 80vw;
-  justify-content: center;
-  align-items: center;
+body::-webkit-scrollbar-thumb {
+  background-color:black; /* Cor da barra de rolagem */
+  border-radius: 0px; /* Arredondamento da barra de rolagem */
 }
 
-.form-container {
-  background-color: aliceblue;
-  flex: 2;
-  height: 92%; 
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1%; /* Adicione um espaço em branco em cima do form-container */
-
+body::-webkit-scrollbar-track {
+  background-color: #DB3D3D;
+}
 
 #logosenai {
   width: 90%;
@@ -147,7 +133,11 @@ label {
 .carouselhome {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
+
 
 .containerhome {
   display: flex;
@@ -157,7 +147,7 @@ label {
   padding: 10px;
   background-color: aliceblue;
   height: 80vh !important; 
-  width: 98.9vw !important;
+  width: 99.4vw !important;
 }
 
 .containerhomefull {
@@ -166,12 +156,19 @@ label {
 
 #home-entrar{
   display: flex;
-  justify-content: end;
+  justify-content: end  ;
+  padding: 10px;
 }
 
 #home-f5 {
   display: flex;
   justify-content: center;
+  margin-left: 15%;
+}
+
+#iconperfil {
+  width: 10%;
+
 }
 
 #classroom {
