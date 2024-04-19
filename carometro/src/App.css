@@ -291,4 +291,30 @@ label {
   margin: 10px;
 }
 
+/* ------------------------------------------------ 
+Tela alunos */
+
+.containerfullAluno {
+  background-color: #fff;
+  width: 99.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  color: black;
+}
+
+#anotacoes {
+  width: 20vw;
+  height: 30vh;
+}
+
+.fotoaluno {
+  background-color: #DB3D3D;
+  margin: 5vw;
+}
+
+#imagemaluno {
+  width: 35vw;
+}
 

@@ -14,7 +14,7 @@ function MenuIdev2() {
        </div>
        <div className="linhas">
        <Card nome='Alexandre Deboletta' turma='IDEV2 - N° 1'></Card>
-       <Card nome='Camilly Bianca' turma='IDEV2 - N° 2'></Card>
+       <Card nome='Camilly Bianca' turma='IDEV2 - N° 2'></Card> 
        <Card nome='Carol Romano' turma='IDEV2 - N° 3'></Card>
        <Card nome='Claudete Machado' turma='IDEV2 - N° 4'></Card>
         </div>

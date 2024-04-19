@@ -9,18 +9,19 @@ function Footer() {
             <p>Copyright © 2024</p>
         </div>
         <div className="redessociais">
-            <a id='letrasrodape' href="https://www.instagram.com/fenix_idev2/" >
+            <a id='letrasrodape' href="https://www.instagram.com/fenix_idev2/" target="_blank" >
                 <img id='iconrodape' 
                 src="https://img.freepik.com/vetores-premium/logo-de-midia-social-do-circulo-preto_197792-2899.jpg" 
-                alt="Icon Instagram" />
+                alt="Icon Instagram" 
+                />
                 IDEV2</a>
 
-                <a id='letrasrodape' href="https://www.instagram.com/lucasletzel_/" >
+                <a id='letrasrodape' href="https://www.instagram.com/lucasletzel_/" target="_blank" >
             <img id='iconrodape' 
                 src="https://img.freepik.com/vetores-premium/logo-de-midia-social-do-circulo-preto_197792-2899.jpg" 
                 alt="Icon Instagram" />
                 lucasletzel_</a>
-                <a id='letrasrodape' href="https://www.instagram.com/_pedrolima7_/" >
+                <a id='letrasrodape' href="https://www.instagram.com/_pedrolima7_/" target="_blank">
 <img id='iconrodape' 
                 src="https://img.freepik.com/vetores-premium/logo-de-midia-social-do-circulo-preto_197792-2899.jpg" 
                 alt="Icon Instagram" />

@@ -10,7 +10,7 @@ import MenuIdev2 from './pages/menuidev2.jsx';
 import Cabecalho from './pages/Header.jsx';
 import Footer from './pages/footer.jsx';
 import Idev1 from './pages/Idev1.jsx';
-import AlunaPage from './pages/components/Aluno.jsx'
+import AlunoPage from './pages/AlunoPrincipal.jsx'
 
 function App() {
   const [count, setCount] = useState(0); // Define um estado inicial "count" com valor 0, provavelmente não utilizado neste exemplo
@@ -26,7 +26,7 @@ function App() {
               <Route path="/home" element={<Home />} />  {/* Rota para /home, renderiza o componente Home */}
               <Route path="/Idev2" element={<MenuIdev2 />} /> 
               <Route path="/Idev1" element={<Idev1 />} /> 
-              <Route path="/aluno" element={<AlunaPage />} /> 
+              <Route path="/aluno" element={<AlunoPage/>} /> 
             </Routes>
             <Footer></Footer>
           </BrowserRouter>
