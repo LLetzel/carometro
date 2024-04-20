@@ -305,16 +305,54 @@ Tela alunos */
 }
 
 #anotacoes {
-  width: 20vw;
-  height: 30vh;
+  width: 70%;
+  height: 20vh;
 }
 
 .fotoaluno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #DB3D3D;
-  margin: 5vw;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 #imagemaluno {
-  width: 35vw;
+  width: 100%;
+  height: 50vh;
 }
 
+.informaçõesaluno {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin: 0.8vh;
+  width: 100%;
+  height: 5vh;
+  padding: 1%;
+  border: solid 3px;
+  border-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.informacoestotal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin: 4vw;
+}
+.caixadetexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  margin: 0.8vh;
+  width: 100%;
+  padding: 1%;
+  border: solid 3px; /* Remove a borda padrão da label */
+}

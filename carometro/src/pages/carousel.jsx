@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
 import { useState } from 'react';
-import '../App.css';
+import '../App.css'
 import IDEV2 from './imagens/idev2.jpeg';
 // import Carousel from 'react-bootstrap/Carousel'; // Importa o componente Carousel do React Bootstrap
 

@@ -1,11 +1,8 @@
 import { useState } from 'react'; // Importa o hook useState do React para gerenciar estados
 import './App.css'; // Importa a folha de estilo CSS da aplicação
-// import Entrar from './pages/entrar.jsx'; // Importa o componente Entrar
 import Home from './pages/home.jsx'; // Importa o componente Home
-import Teste from './pages/teste.jsx';
-import CarouselCar from './pages/carousel.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Importa componentes de roteamento do React Router DOM
-import Login from './pages/login.jsx';
+import Login  from "./pages/login.jsx";
 import MenuIdev2 from './pages/menuidev2.jsx';
 import Cabecalho from './pages/Header.jsx';
 import Footer from './pages/footer.jsx';
@@ -14,6 +11,7 @@ import AlunoPage from './pages/AlunoPrincipal.jsx'
 
 function App() {
   const [count, setCount] = useState(0); // Define um estado inicial "count" com valor 0, provavelmente não utilizado neste exemplo
+
 
   return (
     <>
