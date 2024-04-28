@@ -1,9 +1,9 @@
-import Cabecalho from './Header.jsx';
-import { useState } from 'react';   
-import '../App.css';
-import Card from './components/Card.jsx'
 
-function MenuIdev2() {
+import { useState } from 'react';   
+import '/./Programações/carometro/carometro/src/App.css';
+import Card from '../components/Card.jsx'
+
+function Idev2() {
     const [count, setCount] = useState(0)
   
     return (
@@ -75,4 +75,4 @@ function MenuIdev2() {
     );
   }
   
-  export default MenuIdev2;
+  export default Idev2;

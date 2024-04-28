@@ -138,6 +138,16 @@ label {
   width: 100%;
 }
 
+.botoescarousel {
+  display: flex;
+  justify-content: center;
+  width: 80vw; 
+}
+
+#visualizarturma{
+  margin: 3%;
+}
+
 
 .containerhome {
   display: flex;
@@ -229,7 +239,7 @@ label {
   width: 98.8vw;
 }
 
-.tituloidev2 {
+.tituloidev2, .tituloimec_iele2, .tituloidev1 {
   display: flex;
   justify-content: center;
 }

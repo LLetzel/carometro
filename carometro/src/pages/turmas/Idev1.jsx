@@ -1,6 +1,7 @@
 import { useState } from 'react';   
-import '../App.css';
-import Card from './components/Card';
+import '/./Programações/carometro/carometro/src/App.css';
+
+import Card from '../components/Card';
 
 function Idev1() {
     const [count, setCount] = useState(0)
@@ -8,8 +9,8 @@ function Idev1() {
     return (
     <>
       <div className="fundoalunos">
-        <div className="tituloidev">
-       <h1 className='tituloIDEV1'>IDEV1</h1>
+        <div className="tituloidev1">
+       <h1 className='tituloidev1'>IDEV1</h1>
        </div>
        <div className="linhas">
        <Card nome='Alexandre Deboletta' turma='IDEV1 - N° 1'></Card>
