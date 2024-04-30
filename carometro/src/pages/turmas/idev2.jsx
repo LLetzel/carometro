@@ -1,6 +1,6 @@
 
 import { useState } from 'react';   
-import '/./Programações/carometro/carometro/src/App.css';
+import '/./Temp/react/projeto-carômetro/carometro/carometro/src/App.css';
 import Card from '../components/Card.jsx'
 
 function Idev2() {

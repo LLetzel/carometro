@@ -37,7 +37,7 @@ function App() {
       </> : <>
         <BrowserRouter>  {/* Cria um contexto de roteamento */}
           <Routes>  {/* Define as rotas da aplicação */}
-            <Route path="/login" element={<Login />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
+            <Route path="/" element={<Login />} />  {/* Rota para /entrar (aparentemente desnecessária, pois igual à raiz) */}
           </Routes>
         </BrowserRouter>
       </>}
