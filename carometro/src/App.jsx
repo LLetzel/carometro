@@ -11,13 +11,17 @@ import Imeciele2 from './pages/turmas/imec_iele2.jsx'
 import AlunoPage from './pages/AlunoPrincipal.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Imec_iele2 from './pages/turmas/imec_iele2.jsx';
+import { motion } from 'framer-motion';
+
+
 
 function App() {
   const [count, setCount] = useState(0); // Define um estado inicial "count" com valor 0, provavelmente não utilizado neste exemplo
-
+  
 
   return (
     <>
+    
       {localStorage.getItem('token') ? <>
         <div>
           <BrowserRouter>  {/* Cria um contexto de roteamento */}
@@ -31,6 +35,7 @@ function App() {
               <Route path="/imec_iele2" element={<Imec_iele2/>} />
               
             </Routes>
+            
             <Footer></Footer>
           </BrowserRouter>
         </div>

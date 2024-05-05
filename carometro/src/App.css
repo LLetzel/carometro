@@ -29,6 +29,23 @@ body::-webkit-scrollbar-track {
   width: 90%;
 } 
 
+/* No seu arquivo App.css */
+
+.containerfundo {
+  background-color: black;
+  background-image: url("./pages/imagens/senaipompeia.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Adicione a propriedade de opacidade */
+  
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -55,7 +72,8 @@ body::-webkit-scrollbar-track {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80%  ;
+  width: 80% ;
+  height:95%;
   border-radius: 20px;
 }
 
