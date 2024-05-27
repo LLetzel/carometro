@@ -29,7 +29,14 @@ const Card = ({ nome, turma }) => {
         <div className="informacoes">
           <p className="letras">{turma}</p>
         </div>
-        <button id="ver-aluno">Ver Aluno</button>
+        <button id="ver-aluno"
+        onClick={() =>
+          window.open (
+          '/aluno',
+          '_self'
+        )
+        }
+        >Ver Aluno</button>
       </div>
     </>
   );

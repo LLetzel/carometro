@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-// import '/./Temp/react/projeto-carômetro/carometro/carometro/src/App.css';
-import '/Programações/projeto-carometro/carometro/carometro/src/App.css'
+import '/./Temp/react/projeto-carômetro/carometro/carometro/src/App.css';
+// import '/Programações/projeto-carometro/carometro/carometro/src/App.css'
 import Card from '../components/Card.jsx'
 import { motion } from 'framer-motion';
 
